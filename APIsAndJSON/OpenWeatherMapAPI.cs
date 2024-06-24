@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OpenWeatherMap
+namespace APIsAndJSON
 {
-    class Program
+    public class OpenWeatherMap
     {
-        static void Main(string[] args)
+        public static void OpenWeatherMapAPI()
         {
             var client = new HttpClient();
 
