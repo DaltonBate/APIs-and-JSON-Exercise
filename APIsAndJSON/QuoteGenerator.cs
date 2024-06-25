@@ -23,6 +23,22 @@ namespace APIsAndJSON
             Console.WriteLine($"---------------------");
             Console.WriteLine($"Kanye: '{kanyeQuote}'");
             Console.WriteLine($"---------------------");
+            
+            Console.WriteLine($"---------------------");
+            Console.WriteLine($"Kanye: '{kanyeQuote}'");
+            Console.WriteLine($"---------------------");
+            
+            Console.WriteLine($"---------------------");
+            Console.WriteLine($"Kanye: '{kanyeQuote}'");
+            Console.WriteLine($"---------------------");
+            
+            Console.WriteLine($"---------------------");
+            Console.WriteLine($"Kanye: '{kanyeQuote}'");
+            Console.WriteLine($"---------------------");
+            
+            Console.WriteLine($"---------------------");
+            Console.WriteLine($"Kanye: '{kanyeQuote}'");
+            Console.WriteLine($"---------------------");
          }
 
         public static void RonQuote() 
@@ -35,6 +51,22 @@ namespace APIsAndJSON
 
             var RonQuote = JArray.Parse(RonResponse).ToString().Replace('[', ' ').Replace(']', ' ').Trim();
 
+            Console.WriteLine($"-----------------");
+            Console.WriteLine($"Ron: '{RonQuote}'");
+            Console.WriteLine($"-----------------");
+
+            Console.WriteLine($"-----------------");
+            Console.WriteLine($"Ron: '{RonQuote}'");
+            Console.WriteLine($"-----------------");
+            
+            Console.WriteLine($"-----------------");
+            Console.WriteLine($"Ron: '{RonQuote}'");
+            Console.WriteLine($"-----------------"); 
+            
+            Console.WriteLine($"-----------------");
+            Console.WriteLine($"Ron: '{RonQuote}'");
+            Console.WriteLine($"-----------------");
+            
             Console.WriteLine($"-----------------");
             Console.WriteLine($"Ron: '{RonQuote}'");
             Console.WriteLine($"-----------------");
